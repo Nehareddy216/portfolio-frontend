@@ -1,70 +1,202 @@
-# Getting Started with Create React App
+# 🏛️ Vintage Vault - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+# Buy & Sell Authentic Antique Collectibles
 
-In the project directory, you can run:
+A modern and responsive frontend for the **Vintage Vault** antique marketplace built using **React**.
 
-### `npm start`
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+# 📖 About the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Vintage Vault is a full-stack antique marketplace where users can buy and sell authentic vintage collectibles.
 
-### `npm run build`
+This repository contains the **React frontend**, providing an intuitive and responsive user interface that communicates with the Spring Boot backend through REST APIs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ⚙️ Backend Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👉 https://github.com/Nehareddy216/vintage-vault-backend
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ✨ Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🏠 Attractive Home Page
+- 👤 User Registration
+- 🔐 Secure Login
+- 🛍️ Browse Antique Products
+- 📄 Product Details Page
+- ❤️ Wishlist
+- 🛒 Shopping Cart
+- 📱 Responsive User Interface
+- 🔄 REST API Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 🏗️ Application Architecture
 
-## Learn More
+```text
+React + Vite
+      │
+      ▼
+Axios HTTP Requests
+      │
+      ▼
+Spring Boot REST APIs
+      │
+      ▼
+MySQL Database
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 🛠️ Tech Stack
 
-### Code Splitting
+## Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Axios
 
-### Analyzing the Bundle Size
+## Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Spring Boot
+- Spring Security
+- JWT Authentication
 
-### Making a Progressive Web App
+## Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- MySQL
 
-### Advanced Configuration
+## Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Visual Studio Code
+- Git
+- GitHub
+- npm
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 📂 Folder Structure
 
-### `npm run build` fails to minify
+```text
+src
+├── assets
+├── components
+├── pages
+├── services
+├── routes
+├── context
+├── App.jsx
+└── main.jsx
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Nehareddy216/vintage-vault-frontend.git
+```
+
+---
+
+## 2️⃣ Navigate to the Project
+
+```bash
+cd vintage-vault-frontend
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+Make sure the backend server is running before starting the frontend.
+
+---
+
+# 📸 Application Screenshots
+
+| Home Page | Login Page |
+|------------|------------|
+| <img src="screenshots/Screenshot%202026-07-29%20104945.png" width="450"/> | <img src="screenshots/Screenshot%202026-07-29%20105004.png" width="450"/> |
+
+| Registration Page | Shopping Cart |
+|-------------------|---------------|
+| <img src="screenshots/Screenshot%202026-07-29%20105024.png" width="450"/> | <img src="screenshots/Screenshot%202026-07-29%20105109.png" width="450"/> |
+
+| Wishlist | Delivery Details |
+|-----------------|---------------|
+| <img src="screenshots/Screenshot%202026-07-29%20105122.png" width="450"/> | <img src="screenshots/Screenshot%202026-07-29%20105143.png" width="450"/> |
+
+| Payment GateAway | Sucessfull Payment|
+|--------------|--------------|
+| <img src="screenshots/Screenshot%202026-07-29%20105208.png" width="450"/> | <img src="screenshots/Screenshot%202026-07-29%20105218.png" width="450"/> |
+
+---
+
+# 🚀 Future Enhancements
+
+- 👨‍💼 Seller Dashboard
+- 👑 Admin Dashboard
+- 💳 Online Payment Integration
+- 🔍 Advanced Search & Filters
+- 🤖 AI-based Product Recommendations
+- 🌙 Dark Mode
+- ☁️ Cloud Deployment
+
+---
+
+# 👩‍💻 Developer
+
+**Neha Reddy**
+
+**B.Tech – Computer Science & Engineering (AI & ML)**
+
+GitHub:  
+https://github.com/Nehareddy216
+
+---
+
+# ⭐ Support
+
+If you found this project interesting, please consider giving it a ⭐ on GitHub.
+
+Thank you for visiting the repository!
